@@ -1,6 +1,6 @@
 
 async function response_api(url){
-    const base_proxy = "http://localhost:3000/proxy?url=";
+   const base_proxy = "/proxy?url=";
     
     const response = await fetch(base_proxy + encodeURIComponent(url));
     const text = await response.text();
