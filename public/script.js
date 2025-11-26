@@ -1,6 +1,7 @@
 
 async function response_api(url){
-   const base_proxy = "/proxy?url=";
+  const base_proxy = "https://webscrappingp2.onrender.com/proxy?url="
+
 
     
    const response = await fetch(base_proxy + encodeURIComponent(url));
