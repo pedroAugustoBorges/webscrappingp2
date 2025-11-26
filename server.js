@@ -19,6 +19,10 @@ app.get('/proxy', async (req, resp) => {
 
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log("Proxy running port " + PORT));
+
+app.listen(PORT, () => {
+  console.log("Proxy running on port " + PORT);
+});
+
 
 
