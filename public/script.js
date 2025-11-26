@@ -10,8 +10,6 @@ async function response_api(url){
 
 
 
-
-
 function scrap_sum_clientes(html, f){
    let parser = new DOMParser()
 
